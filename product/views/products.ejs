@@ -1,0 +1,11 @@
+<h1>Tests</h1>
+<ul class="restaurants">
+    <% data.tests.forEach((data)=>{ %>
+        <li class="restaurants-item">
+            <img src="<%= data.url %>"class="restaurants-item-image">
+            <div class="restaurants-item-name"><%= data.name %></div>
+            <small class="restaurants-item-type"></small>
+        </li>
+        <% })  %>
+    
+</ul>
